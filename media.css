@@ -1,0 +1,260 @@
+/* ==== 480px ====  */
+@media (max-width:480px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+  .name-container {
+    position: relative;
+    top: -80px;
+    height: 60px;
+    width: 400px;
+}
+.status-container {
+    position: relative;
+    top: -80px;
+    display: flex;
+}
+.stats {
+    width: 120px;
+    height: 55px;
+    background-color: #000000;
+    border-radius: 50px;
+}
+.stats-name {
+    font-size: 16px;
+}
+
+.stats-info {
+    font-size: 14px;
+}
+.coin {
+    font-size: 44px;
+    min-width: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -60px;
+}
+
+.tapbtn {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    top: -40px;
+}
+
+.menu {
+    width: 90px;
+    height: 60px;
+
+}
+.menu h3 {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+}
+
+/* ==== 450px ==== */
+@media (max-width:450px) {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .name-container {
+        position: relative;
+        top: -50px;
+        height: 55px;
+        width: 380px;
+    }
+
+    .status-container {
+        position: relative;
+        top: -60px;
+    }
+
+    .stats {
+        width: 112px;
+        height: 55px;
+        background-color: #000000;
+        border-radius: 50px;
+    }
+
+    .stats-name {
+        font-size: 16px;
+    }
+
+    .stats-info {
+        font-size: 14px;
+    }
+
+    .coin {
+        font-size: 44px;
+        min-width: 200px;
+        margin-bottom: 20px;
+        position: relative;
+        top: -50px;
+    }
+
+    .tapbtn {
+        width: 320px;
+        height: 320px;
+        position: relative;
+        top: -40px;
+    }
+
+    .menu {
+        width: 86px;
+        height: 58px;
+
+    }
+
+    .menu h3 {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+}
+
+/* ==== 400px ==== */
+
+@media (max-width:400px) {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .name-container {
+        position: relative;
+        top: -20px;
+        height: 50px;
+        width: 340px;
+    }
+    .icon {
+        padding: 1px;
+      }
+
+    .status-container {
+        position: relative;
+        top: -40px;
+    }
+
+    .stats {
+        width: 100px;
+        height: 45px;
+    }
+
+    .stats-name {
+        font-size: 14px;
+    }
+
+    .stats-info {
+        font-size: 12px;
+    }
+
+    .coin {
+        font-size: 40px;
+        position: relative;
+        top: -40px;
+    }
+
+    .tapbtn {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: -40px;
+    }
+
+    .menu {
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .menu h3 {
+        font-size: 14px;
+
+    }
+
+}
+/* ==== 380px ==== */
+@media (max-width:380px) {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .name-container {
+        position: relative;
+        top: 0px;
+        height: 45px;
+        width: 300px;
+    }
+
+    .icon {
+        padding: 2px;
+    }
+    .icon img {
+        height: 40px;
+        border-radius: 50%;
+    }
+    .icon h3 {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .status-container {
+        position: relative;
+        top: -20px;
+    }
+
+    .stats {
+        width: 85px;
+        height: 40px;
+    }
+
+    .stats-name {
+        font-size: 12px;
+    }
+
+    .stats-info {
+        font-size: 10px;
+    }
+
+    .coin {
+        font-size: 32px;
+        position: relative;
+        top: -20px;
+    }
+
+    .coin img {
+        width: 35px;
+        border-radius: 50px;
+    }
+    .tapbtn {
+        width: 230px;
+        height: 230px;
+        position: relative;
+        top: -20px;
+    }
+    .boost-bar {
+        display: flex;
+        gap: 125px;
+    }
+    .menu {
+        width: 66px;
+        height: 40px;
+        position: relative;
+        top: -20px;
+
+    }
+
+    .menu h3 {
+        font-size: 12px;
+
+    }
+
+}

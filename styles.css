@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(50, 50, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/* =========Name=========== */
+.name-container {
+    margin: 20px 0px;
+    background-color: #000000;
+    height: 51px;
+    width: 20rem;
+    border-radius: 50px;
+
+}
+
+.icon {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon img {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.icon h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+/* ========= Status ========= */
+.status-container {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+    /* display: none; */
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 111px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 25px;
+    text-align: center;
+    gap: 3px;
+}
+
+.stats-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.stats-info {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* ==== COIN ==== */
+.coin {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+    padding: 5px;
+    border-radius: 50px;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.coin img {
+    width: 45px;
+    border-radius: 50px;
+}
+
+
+
+
+/* ==== TAP BTN ==== */
+.tapbtn {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-image: url('logo.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+
+.tapbtn:active {
+    transform: translateY(3px) translateX(3px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ==== BOOST BAR ==== */
+.boost-bar {
+    display: flex;
+    gap: 150px;
+}
+
+/* ==== MENU BAR ==== */
+.menu-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+
+.menu {
+    width: 85px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu img {
+    height: 33px;
+    width: 36px;
+
+}
+
+.menu h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+/* ==== MENU BAR ==== */
