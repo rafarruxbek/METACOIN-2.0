@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
   -webkit-tap-highlight-color: transparent;
-  /* test */
 }
 
 body {
@@ -16,7 +15,7 @@ body {
 
 .container {
   background-color: #000000;
-  display: flex;`
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
